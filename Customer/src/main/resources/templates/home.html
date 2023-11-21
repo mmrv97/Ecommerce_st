@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<!-- Basic -->
+
+<head th:replace="~{fragments::head}">
+
+
+</head>
+
+<body>
+<div th:replace="~{fragments::main-top}"></div>
+<!-- End Main Top -->
+
+<!-- Start Main Top -->
+<header th:replace="~{fragments::main-header}"></header>
+<!-- End Main Top -->
+
+<!-- Start Top Search -->
+<div th:replace="~{fragments::top-search}">
+</div>
+<!-- End Top Search -->
+
+<!-- Start Slider -->
+<div id="slides-shop" class="cover-slides">
+    <ul class="slides-container">
+        <li class="text-center">
+            <img src="images/foto-08.jpg" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="m-b-20"><strong>Bienvenido a <br> Strawberry</strong></h1>
+                        <p class="m-b-40">¡Disfruta de nuestros productos!<br> Que tengas un lindo y delicioso día</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="text-center">
+            <img src="images/foto_09.jpg" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="m-b-20"><strong>Bienvenido a <br> Strawberry</strong></h1>
+                        <p class="m-b-40">¡Disfruta de nuestros productos!<br> Que tengas un lindo y delicioso día</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="text-center">
+            <img src="images/foto-10.jpg" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <h1 class="m-b-20"><strong>Bienvenido a <br> Strawberry</strong></h1>
+                        <p class="m-b-40">¡Disfruta de nuestros productos!<br> Que tengas un lindo y delicioso día</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <div class="slides-navigation">
+        <a href="#" class="next"><i aria-hidden="true"></i></a>
+        <a href="#" class="prev"><i aria-hidden="true"></i></a>
+    </div>
+</div>
+<!-- End Slider -->
+
+
+<!-- Start About Page  -->
+<div class="about-box-main">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="banner-frame"><img class="img-fluid" src="images/intro.png" alt="descripcion"/>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h2 class="noo-sh-title-top">Somos <span>Strawberry</span></h2>
+                <p>Nos apasiona ofrecer experiencias deliciosas y refrescantes que deleiten tus sentidos.
+                    Somos un emprendimiento dedicado a la creación de exquisitos postres y cócteles,
+                    todos elaborados con el ingrediente estrella: la fresa.</p>
+                <p>Nuestra misión es fusionar la frescura y dulzura de esta fruta emblemática en cada bocado y sorbo que compartas con nosotros.
+                    Nos esforzamos por brindar un toque único a tus momentos especiales, ya sea celebrando ocasiones alegres o
+                    simplemente disfrutando de un capricho diario.</p>
+                <p> Con ingredientes de la más alta calidad y una dedicación inquebrantable a la artesanía, invitamos a cada cliente a sumergirse en un mundo de sabores irresistibles.
+                    Conócenos y déjate llevar por el encanto de nuestras creaciones, donde la fresa se convierte en la protagonista de una experiencia culinaria inolvidable..</p>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-sm-6 col-lg-4">
+                <div class="service-block-inner">
+                    <h3>Somos confiables</h3>
+                    <p> Nos esforzamos por construir relaciones sólidas con nuestros clientes basadas en la transparencia, la integridad y el compromiso.
+                        Puedes confiar en que cada postre y cóctel que sale de nuestra cocina cumple con los más altos estándares de calidad.</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="service-block-inner">
+                    <h3>Somos Profesionales</h3>
+                    <p>Nuestro equipo está compuesto por expertos apasionados que han dedicado tiempo y esfuerzo para perfeccionar sus habilidades en la creación de postres y cócteles de fresa.
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="service-block-inner">
+                    <h3>Tenemos experiencia</h3>
+                    <p>Nuestra trayectoria nos ha permitido entender los matices de la preparación, la presentación y el servicio al cliente. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Start Feed  -->
+<div th:replace="~{fragments::instagram-box}">
+</div>
+
+<!-- End Feed  -->
+
+
+<!-- Start Footer  -->
+<footer th:replace="~{fragments::footer}">
+
+</footer>
+
+
+<!-- ALL JS FILES -->
+<div th:replace="~{fragments::script}"></div>
+</body>
+
+</html>
